@@ -87,7 +87,7 @@ body {
     z-index: 10;
     transform-origin: bottom center;
     transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
-    /* transition: .2s linear; */
+    /* transition: transform .2s ease-in-out; */
 }
 
 .clock .hand::before {
